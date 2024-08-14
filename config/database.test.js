@@ -1,6 +1,6 @@
 module.exports = {
   mongoose: {
-    url: 'mongodb://mongouser:B1nNm2WF@test_jike_mongondb:27017/jike?authSource=admin',
+    url: 'mongodb://localhost:27017/lmt',
     options: {
       useNewUrlParser: true,
       useUnifiedTopology: true,
