@@ -28,6 +28,13 @@ module.exports = appInfo => {
     },
   };
 
+  config.mongoose = {
+    client: {
+      url: 'mongodb://localhost:27017/lmt',
+      options: {},
+    },
+  };
+
   config.security = {
     csrf: {
       enable: false,
